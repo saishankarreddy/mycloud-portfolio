@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skyline Cloud Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sky-gradient" aria-hidden="true"></div>
+
+    <header class="hero section reveal">
+      <p class="eyebrow">Cloud Engineer · DevOps Builder</p>
+      <h1>Hi, I’m <span class="highlight">Your Name</span>.</h1>
+      <p class="lead">
+        I design resilient, scalable cloud systems. Explore the moving sky below—each cloud carries a core skill in my stack.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#skills">Explore Skills</a>
+        <a class="btn btn-ghost" href="#projects">View Projects</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="skills" class="section">
+        <div class="section-head reveal">
+          <h2>Skills in Motion</h2>
+          <p>
+            Hover any cloud to pause it and reveal what I use in real-world systems.
+          </p>
+        </div>
+
+        <div class="cloud-lane" id="cloudLane" aria-label="Animated cloud skills"></div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-head">
+          <h2>Featured Cloud Work</h2>
+          <p>Projects where architecture, automation, and performance meet.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="card">
+            <h3>Multi-Region Deployment Platform</h3>
+            <p>
+              Built a blue/green deployment pipeline with Terraform + GitHub Actions to reduce release risk and downtime.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Observability Hub</h3>
+            <p>
+              Consolidated logs, traces, and metrics across microservices with OpenTelemetry and managed monitoring stacks.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Cost Intelligence Dashboard</h3>
+            <p>
+              Automated usage analytics and budget alerts to improve cloud spend visibility for engineering teams.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer reveal">
+      <p>Let’s build in the cloud.</p>
+      <a href="mailto:hello@example.com">hello@example.com</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
